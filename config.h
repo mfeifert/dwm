@@ -1,7 +1,7 @@
 /* See LICENSE file for copyright and license details. */
 
 /* appearance */
-static const unsigned int borderpx  = 3;        /* border pixel of windows */
+static const unsigned int borderpx  = 2;        /* border pixel of windows */
 static const unsigned int gappx     = 5;        /* gaps between windows */
 static const unsigned int snap      = 32;       /* snap pixel */
 static const int showbar            = 1;        /* 0 means no bar */
@@ -11,9 +11,14 @@ static const char dmenufont[]       = "Hack Nerd Font:size=14";
 /* Catppuccin Mocha */
 static const char col_gray1[]       = "#11111b";  /* Crust */
 static const char col_gray2[]       = "#1e1e2e";  /* Base */
-static const char col_gray3[]       = "#585b70";  /* Surface2 */
-static const char col_gray4[]       = "#9399b2";  /* Overlay2 */
-static const char col_color[]        = "#89b4fa";  /* Blue */
+static const char col_gray3[]       = "#a6adc8";  /* Subtext0 */
+static const char col_gray4[]       = "#313244";  /* Surface0 */
+/* static const char col_color[]        = "#f9e2af";  Yellow */
+static const char col_color[]        = "#fab387";  /* Peach */
+/* static const char col_color[]        = "#f38ba8";  Red */
+/* static const char col_color[]        = "#89b4fa";  Blue */
+/* static const char col_color[]        = "#1e66f5";  Latte Blue */
+/* static const char col_color[]        = "#45475a";  Surface1 */
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
 	[SchemeNorm] = { col_gray3, col_gray1, col_gray1 },
