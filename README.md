@@ -7,4 +7,4 @@ Fork of [dwm](https://git.suckless.org/dwm/)
 - [Catppuccin](https://github.com/catppuccin) Mocha colors
 - [T], [M], and [F] for layout symbols
 - Bottom bar
-- alt + q to kill window
+- alt + q to close window
